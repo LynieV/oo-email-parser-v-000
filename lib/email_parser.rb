@@ -18,7 +18,7 @@ class EmailParser
     
     #parse(emails).uniq
     
-    #result = @email_string.split(/[,\s]+/).uniq
+    result = @email_string.split(/[,\s]+/).uniq
   end
   
 end
