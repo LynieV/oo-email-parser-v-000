@@ -11,13 +11,6 @@ class EmailParser
   end
   
   def parse
-    
-    #csv_emails = emails.split(",")
-    
-    #space_emails = emails.split(" ")
-    
-    #parse(emails).uniq
-    
     result = @email_string.split(/[,\s]+/).uniq
   end
   
